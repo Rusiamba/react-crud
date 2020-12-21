@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+}
+
+.refresh {
+  color: green;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.textarea {
+  width: 300px;
+  min-height: 150px;
+}
+
+.button {
+  background-color: white;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
+  position: absolute;
+  top: 125px;
+  left: 250px;
+}
+
+.card__delete {
+  cursor: pointer;
+  color: red;
+}
